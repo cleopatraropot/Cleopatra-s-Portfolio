@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 header {
@@ -42,6 +44,51 @@ nav ul li a:hover {
 
 }
 
+
+.home-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.name {
+  font-weight: bolder;
+  font-size: 60px;
+  margin: 0;
+}
+
+.position {
+  font-family: Courier, monospace;
+  color: #BA55D3;
+  font-size: 25px;
+}
+
+.about {
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 40px;
+  background-color: #D8BFD8;
+  padding: 20px 60px;
+  border: none;
+  font-size: 16px;
+  border-radius: 28px;
+}
+
+
+
+
+
+
+
+
 footer {
   background-color: black;
   color: #FFFFFF;
@@ -50,8 +97,9 @@ footer {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 60px;
 }
 
 .footer-section {
