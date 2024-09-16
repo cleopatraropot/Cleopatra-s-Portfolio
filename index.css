@@ -3,6 +3,27 @@
   font-family: Arial, sans-serif;
   background-color: black;
   color: white;
+  scroll-behavior: smooth;
+}
+
+.ghost-btn {
+  cursor: pointer;
+  margin-top: 40px;
+  background-color: #635663;
+  padding: 20px 40px;
+  border: none;
+  font-size: 16px;
+  border-radius: 28px;
+}
+
+.primary-btn {
+  cursor: pointer;
+  margin-top: 40px;
+  background-color: #D8BFD8;
+  padding: 20px 60px;
+  border: none;
+  font-size: 16px;
+  border-radius: 28px;
 }
 
 header {
@@ -12,6 +33,7 @@ header {
   background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
 
 .logo img {
   height: 70px;
@@ -48,8 +70,8 @@ nav ul li a:hover {
 }
 
 .home-content {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,6 +87,7 @@ nav ul li a:hover {
   font-family: Courier, monospace;
   color: #BA55D3;
   font-size: 25px;
+  margin-bottom: 15px;
 }
 
 .about {
@@ -72,21 +95,31 @@ nav ul li a:hover {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-button {
-  cursor: pointer;
-  margin-top: 40px;
-  background-color: #D8BFD8;
-  padding: 20px 60px;
-  border: none;
-  font-size: 16px;
-  border-radius: 28px;
-}
-
 .avatar {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
+
+.about-me-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.ab-text {
+  color: #BA55D3;
+  font-size: 40px;
+  font-family: Courier, monospace,  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+
+
+
+
 
 footer {
   background-color: black;
