@@ -2,7 +2,6 @@
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: black;
-  color: white;
   scroll-behavior: smooth;
 }
 
@@ -14,6 +13,7 @@
   border: none;
   font-size: 16px;
   border-radius: 28px;
+  color: white;
 }
 
 .primary-btn {
@@ -24,6 +24,7 @@
   border: none;
   font-size: 16px;
   border-radius: 28px;
+  color: white;
 }
 
 button {
@@ -81,6 +82,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 
 .name {
@@ -113,6 +115,7 @@ nav ul li a:hover {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 30px;
+  color: white;
 }
 
 .ab-text {

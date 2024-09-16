@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: black;
 }
 
 header {
@@ -43,6 +44,62 @@ nav ul li a:hover {
     color: #BA55D3;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
+
+
+
+
+
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile p {
+    font-size: 26px;
+    font-family: -apple-system BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.project {
+    border: 1px solid #672c75;
+    background-color: #5c4561;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 270px;
+    text-align: center;
+}
+
+.divider {
+    height: 50px;
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
 
 footer {
     background-color: black;
